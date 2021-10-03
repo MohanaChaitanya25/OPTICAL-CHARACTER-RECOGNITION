@@ -7,6 +7,7 @@ This is an **OCR GUI Tool**.
 - PYTHON 3
 - TKINTER LIBRARY
 - OPENCV LIBRARY
+- OCR-Tesseract
 
 ## IDE Used
 - Visual Studio Code
