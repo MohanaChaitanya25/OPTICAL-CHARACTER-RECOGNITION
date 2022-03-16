@@ -66,11 +66,11 @@ def scan():
     
 window = Tk()
 window.title('OCR')
-window.iconbitmap(r'OCRICON.ico')
+window.iconbitmap(r'IMAGES/OCRICON.ico')
 window.configure(bg='yellow')
 window.geometry('600x600')
 
-Img = ImageTk.PhotoImage(Image.open(r"ocrimg1.png"))
+Img = ImageTk.PhotoImage(Image.open(r"IMAGES/ocrimg1.png"))
 label = Label(image=Img,bg="yellow").pack()
 
 
